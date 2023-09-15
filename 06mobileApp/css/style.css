@@ -1,0 +1,85 @@
+body {
+  background-image: url("../img/bg.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0 5%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 20vh;
+}
+
+.nav-menu-icon {
+  display: none;
+}
+
+nav .nav-items {
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.brand-img {
+  flex: 1;
+  margin: auto;
+}
+
+.nav-logo .logo {
+  height: 50px;
+  width: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  height: 80vh;
+}
+
+.col {
+  flex: 0.5;
+  display: flex;
+  min-height: 100%;
+}
+
+.col-1 {
+  display: flex;
+  color: #ffffff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.col-1 h1 {
+  font-size: 50px;
+  margin-top: 0px;
+}
+
+.col-1 p {
+  font-size: 25px;
+}
+
+.col-2 {
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  position: absolute;
+}
+
+.phone {
+  height: 70%;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
